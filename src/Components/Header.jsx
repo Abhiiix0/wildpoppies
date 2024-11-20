@@ -46,6 +46,7 @@ const Header = () => {
           </p>
         </div>
       </Drawer>
+
       <div className=" bg-black h-10 flex justify-center md:justify-between items-center px-14">
         <div className=" hidden md:flex w-56  items-center justify-start gap-3">
           <FaFacebook className=" text-white cursor-pointer" />
