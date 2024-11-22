@@ -21,7 +21,7 @@ const HeroSection = () => {
             Discover our new combo flower deals, starting from $59.
           </p>
         </div>
-        <button className="uppercase font-light h-11 w-full sm:w-fit sm:px-6 bg-white text-black rounded-sm text-[0.75rem] tracking-wider">
+        <button className="uppercase font-semibold hover:bg-black hover:text-white h-11 w-full sm:w-fit sm:px-6 bg-white text-black rounded-sm text-[0.75rem] tracking-wider">
           Shop Now
         </button>
       </div>

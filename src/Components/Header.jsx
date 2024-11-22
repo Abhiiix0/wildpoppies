@@ -10,7 +10,7 @@ import { IoCloseOutline } from "react-icons/io5";
 const Header = () => {
   const [drawerBtn, setDrawerBtn] = useState(false);
   return (
-    <div className="">
+    <div className=" bg-white">
       <Drawer
         closeIcon={false}
         placement="left"
@@ -56,9 +56,13 @@ const Header = () => {
         </div>
         <p className="  text-white text-sm">Same Day Delivery Auckland Wide</p>
         <div className=" hidden md:flex w-56   items-center justify-end gap-3">
-          <p className=" uppercase text-white text-sm ">rewards</p>
-          <p className=" uppercase text-white text-sm ">Delivery</p>
-          <p className=" uppercase text-white text-sm ">Faqs</p>
+          <p className=" uppercase text-white text-sm cursor-pointer">
+            rewards
+          </p>
+          <p className=" uppercase text-white text-sm cursor-pointer">
+            Delivery
+          </p>
+          <p className=" uppercase text-white text-sm cursor-pointer">Faqs</p>
         </div>
       </div>
       <div className=" flex justify-between items-center px-4 md:px-14 py-4 md:py-5 border-b">
@@ -78,11 +82,11 @@ const Header = () => {
           <img src={logo} alt="" className=" h-3 w-32 md:w-[273px] md:h-7  " />
         </div>
         <div className="  w-56 justify-end items-center flex gap-3 md:gap-6 ">
-          <p className=" flex gap-3 items-center text-sm font-normal text-gray-500">
+          <p className=" cursor-pointer flex gap-3 items-center text-sm font-normal text-gray-500">
             <span className=" hidden md:block">Account</span>{" "}
             <CiUser className=" text-xl md:text-2xl text-black" />
           </p>
-          <p className="flex gap-3 items-center text-sm font-normal text-gray-500">
+          <p className="flex cursor-pointer gap-3 items-center text-sm font-normal text-gray-500">
             <span className=" hidden md:block">Cart</span>{" "}
             <LiaShoppingBagSolid className="text-xl md:text-2xl text-black" />
           </p>
@@ -90,20 +94,20 @@ const Header = () => {
       </div>
       <div className=" hidden border-b h-14 md:flex items-center px-14 justify-center">
         <div className=" h-full w-[53rem] items-center  flex justify-between">
-          <p className=" flex h-full gap-1 items-center uppercase  tracking-wide justify-center text-black font-semibold text-sm">
+          <p className=" cursor-pointer flex h-full gap-1 items-center uppercase  tracking-wide justify-center text-black font-semibold text-sm">
             Flowers <IoIosArrowDown size={16} className=" text-gray-700" />
           </p>
-          <p className=" flex h-full gap-1 items-center uppercase  tracking-wide  justify-center text-black font-semibold text-sm">
+          <p className="cursor-pointer flex h-full gap-1 items-center uppercase  tracking-wide  justify-center text-black font-semibold text-sm">
             gift boxs <IoIosArrowDown size={16} className=" text-gray-700" />
           </p>
-          <p className=" flex h-full gap-1 items-center uppercase tracking-wide  justify-center text-black font-semibold text-sm">
+          <p className="cursor-pointer flex h-full gap-1 items-center uppercase tracking-wide  justify-center text-black font-semibold text-sm">
             Cakes & add-ons{" "}
             <IoIosArrowDown size={16} className=" text-gray-700" />
           </p>
-          <p className=" flex h-full gap-1 items-center uppercase tracking-wide  justify-center text-black font-semibold text-sm">
+          <p className="cursor-pointer flex h-full gap-1 items-center uppercase tracking-wide  justify-center text-black font-semibold text-sm">
             occasion <IoIosArrowDown size={16} className=" text-gray-700" />
           </p>
-          <p className=" uppercase justify-center tracking-wide text-red-500 font-semibold text-sm">
+          <p className="cursor-pointer uppercase justify-center tracking-wide text-red-500 font-semibold text-sm">
             Combo Flower Deals
           </p>
         </div>
